@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 70px;
+    width: 1400px;
+    background-color: black;
+    display: flex;
+}
+
+header a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    line-height: 70px;
+}
+
+header h1 span {
+    color: #E72424;
+}
+
+.firstSection {
+    height: 601px;
+    width: 1400px;
+    background-image: url(../images/background-1.png);
+}
+
+.firstSection h1 {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    line-height: 70px;
+}
+
+.firstSection h1 span {
+    color: #E72424;
+}
+
+.firstSection h2 {
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.firstSection p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.firstSection button {
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #FFFFFF;
+    width: 135px;
+    height: 42px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.firstSection h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.firstSection h3 span {
+    color: #E72424;
+}
+
+.firstSection .firstLine {
+    width: 64px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+
+#butGetStarted {
+    width: 370px;
+    height: 54px;
+    background-color: #EC7979;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.secondSection {
+    width: 1400px;
+    height: 110px;
+    background-color: #F8EFEF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.secondSection h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: center;
+    color: #333333;
+}
+
+.secondSection p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    color: #86878B;
+}
+
+.thirdSection {
+    width: 1400px;
+    height: 600px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.thirdSection button {
+    width: 112px;
+    height: 110px;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: #333333;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+}
+
+#firstTAB {
+    background-color: #EC7979;
+}
+
+.thirdSection h3 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.thirdSection p {
+    font-size: 14px;
+    color: #86878B;
+}
+
+#butDownload {
+    width: 135px;
+    height: 42px;
+    background-color: #EC7979;
+    border: 1px solid #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.fourthSection {
+    width: 1400px;
+    height: 600px;
+}
+
+.fourthSection h2 {
+    color: #212121;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.fourthSection .secondLine {
+    width: 64px;
+    height: 0px;
+    border: 1px solid #EC7979;
+}
+
+.fourthSection p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    color: #86878B;
+}
+
+.cards h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+}
+
+.cards p {
+    color: #000000;
+}
+
+.fifthSection {
+    width: 1400px;
+    height: 800px;
+    background: #F5F5F5;
+}
+
+.fifthSection h2 {
+    color: #212121;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.fifthSection .secondLine {
+    width: 64px;
+    height: 0px;
+    border: 1px solid #EC7979;
+}
+
+.fifthSection p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    color: #86878B;
+}
