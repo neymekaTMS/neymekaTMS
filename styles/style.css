@@ -1,3 +1,8 @@
+.container {
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,59 +11,163 @@
 header {
     height: 70px;
     width: 1400px;
-    background-color: black;
-    display: flex;
+    background-color: #000000;
+    display: block;
 }
 
 header a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 600;
     font-size: 15px;
-    line-height: 20px;
+    line-height: 25px;
     color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
+    margin-top: 22px;
+    height: 20px;
 }
 
-header h1 {
+header nav {
+    width: 489px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.headerNav {
+    display: flex;
+    align-content: center;
+}
+
+.headerNav a:hover {
+    background-color: red;
+}
+
+#miniLogo {
     font-size: 30px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     color: #ffffff;
     line-height: 70px;
 }
 
-header h1 span {
+#miniLogo span {
     color: #E72424;
 }
 
 .firstSection {
     height: 601px;
     width: 1400px;
-    background-image: url(../images/background-1.png);
+    background-image: url(../images/background-1.jpg);
+    display: flex;
 }
 
-.firstSection h1 {
+#logo {
+    width: 129px;
+    height: 70px;
+    font-family: 'Roboto', Arial, sans-serif;
     font-size: 60px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     line-height: 70px;
 }
 
-.firstSection h1 span {
+#logo span {
     color: #E72424;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    width: 1290px;
+}
+
+.leftBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 110px;
+    margin-top: 109px;
+    margin-bottom: 101px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 370px;
+    background-color: #FFFFFF;
+    align-self: center;
+}
+
+#form h3 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    height: 56px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#form h3 span {
+    color: #E72424;
+}
+
+#username,
+#email,
+#password {
+    width: 252px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+#formData {
+    display: flex;
+    height: 314px;
+    align-items: flex-end;
+}
+
+#formData .fields {
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    padding-bottom: 15px;
+    border: none;
 }
 
 .firstSection h2 {
     color: #FFFFFF;
     font-size: 36px;
     line-height: 42px;
-    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-family: 'Raleway', Arial, ssans-serif;
     text-transform: uppercase;
 }
 
+.firstSection h2::after {
+    content: '';
+    display: block;
+    width: 64px;
+    border-bottom: 1px solid #FFFFFF;
+    margin-top: 23px;
+}
+
 .firstSection p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Arial, sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
@@ -72,31 +181,15 @@ header h1 span {
     color: #FFFFFF;
     width: 135px;
     height: 42px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
     text-align: center;
 }
 
-.firstSection h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
-}
-
-.firstSection h3 span {
-    color: #E72424;
-}
-
-.firstSection .firstLine {
-    width: 64px;
-    height: 0px;
-    border: 1px solid #FFFFFF;
-}
-
 #butGetStarted {
+    font-family: 'Open Sans', Arial, sans-serif;
     width: 370px;
     height: 54px;
     background-color: #EC7979;
@@ -107,15 +200,27 @@ header h1 span {
     line-height: 20px;
 }
 
+.secondBlock {
+    display: flex;
+    align-items: center;
+    height: 110px;
+}
+
+#logosGroup {
+    display: flex;
+    width: 684px;
+    justify-content: space-around;
+}
+
 .secondSection {
     width: 1400px;
     height: 110px;
     background-color: #F8EFEF;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .secondSection h3 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 20px;
     line-height: 27px;
     align-items: center;
@@ -133,7 +238,27 @@ header h1 span {
 .thirdSection {
     width: 1400px;
     height: 600px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.section_3_1 {
+    display: flex;
+}
+
+.section_3_2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    justify-content: space-between;
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
 }
 
 .thirdSection button {
@@ -147,22 +272,31 @@ header h1 span {
     font-weight: bold;
     color: #FFFFFF;
     border: none;
+    margin-top: 10px;
 }
 
-#firstTAB {
+#firstTAB:hover {
     background-color: #EC7979;
 }
 
 .thirdSection h3 {
     color: #000000;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 20px;
-    line-height: 27px;
+    line-height: 19.07px;
+}
+
+#img_section_3 {
+    width: 320px;
+    height: 253px;
+    margin-top: 125px;
+    margin-left: 50px;
 }
 
 .thirdSection p {
     font-size: 14px;
     color: #86878B;
+    text-transform: uppercase;
 }
 
 #butDownload {
@@ -183,8 +317,8 @@ header h1 span {
     color: #212121;
     font-size: 36px;
     line-height: 42px;
-    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 .fourthSection .secondLine {
@@ -202,7 +336,7 @@ header h1 span {
 }
 
 .cards h4 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
@@ -224,7 +358,7 @@ header h1 span {
     text-transform: uppercase;
     font-size: 36px;
     line-height: 42px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Arial, sans-serif;
 }
 
 .fifthSection .secondLine {
@@ -239,4 +373,16 @@ header h1 span {
     line-height: 19px;
     align-items: center;
     color: #86878B;
+}
+
+.sixthSection {
+    height: 600px;
+    width: 1400px;
+    color: #FFF;
+}
+
+.seventhSection {
+    width: 1400px;
+    height: 326px;
+    background-image: url(../images/background2.jpg);
 }

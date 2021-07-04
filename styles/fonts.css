@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), url('/fonts/Roboto.woff2') format('woff2'), url('/fonts/Roboto.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), url('/fonts/ralewayregular.woff2') format('woff2'), url('/fonts/ralewayregular.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 300;
+    src: local('Raleway'), url('/fonts/ralewaylight.woff2') format('woff2'), url('/fonts/ralewaylight.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), url('/fonts/opensans.woff2') format('woff2'), url('/fonts/opensans.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans'), url('/fonts/opensanssemibold.woff2') format('woff2'), url('/fonts/opensanssemibold.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans'), url('/fonts/opensansbold.woff2') format('woff2'), url('/fonts/opensansbold.woff') format('woff');
+}
